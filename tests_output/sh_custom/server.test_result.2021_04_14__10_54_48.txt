@@ -1,0 +1,4 @@
+
+> SERVER@1.0.0 _start_app C:\Users\Slavko_Work\A^O_MyPrecious\SERVER
+>  start bash -c " bash ./start.sh " ; echo "SERVER STARTED" ; exit 1 ;
+

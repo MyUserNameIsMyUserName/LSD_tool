@@ -103,8 +103,18 @@ dist
 # TernJS port file
 .tern-port
 
+# NODE.js
 
-# NODE.js 
+# -V- CUSTOM CONFIG PART -V-
 
+# NODE_MODULES INSIDE BOTH FOLDERS
 ./RUNNER/node_modules
 ./SERVER/node_modules
+
+# RUNNING PROCESS IN BOTH FOLDERS
+./RUNNER/_running.conf
+./SERVER/_running.conf
+
+# LOCK FROM NPM
+./RUNNER/package-lock.json
+./SERVER/package-lock.json

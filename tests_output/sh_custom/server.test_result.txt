@@ -2,3 +2,7 @@
 > SERVER@1.0.0 start_server C:\Users\slavk\A^O_MyPrecious\SERVER
 >  start bash -c " bash ./start.sh " ; echo "SERVER STARTED" ; exit 1 ;
 
+
+> SERVER@1.0.0 start_server C:\Users\Slavko_Work\A^O_MyPrecious\SERVER
+>  start bash -c " bash ./start.sh " ; echo "SERVER STARTED" ; exit 1 ;
+

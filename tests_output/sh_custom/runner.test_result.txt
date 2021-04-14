@@ -2,3 +2,7 @@
 > RUNNER@1.0.0 start_runner C:\Users\slavk\A^O_MyPrecious\RUNNER
 >  start bash -c " bash ./start.sh " ; echo "RUNNER STARTED RUNNING" ; exit 1 ;
 
+
+> RUNNER@1.0.0 start_runner C:\Users\Slavko_Work\A^O_MyPrecious\RUNNER
+>  start bash -c " bash ./start.sh " ; echo "RUNNER STARTED RUNNING" ; exit 1 ;
+
