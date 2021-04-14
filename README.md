@@ -16,9 +16,7 @@ This should allow user to listen for commands from other pc that is running a gi
 Well these are gona run all this crap. Sooo you can do it manually....  
 I know it makes no sense but why not...xD
 
-     alias A^O_MyPrecious_Install="start bash -c \" cd ~ ; git clone https://github.com/MyUserNameIsMyUserName/MyPrecious-_.TIME._-.git A^O_MyPrecious ; exit 1; \"; echo \"[> STATUS: 
-     
-     A^O_MyPrecious Installed. <]\"; echo \"\"; echo \"= Use alias [ A^O_MyPrecious_Start ] command to start listening for commands.\"; echo \" \"; "
+     alias A^O_MyPrecious_Install="start bash -c \" cd ~ ; git clone https://github.com/MyUserNameIsMyUserName/MyPrecious-_.TIME._-.git A^O_MyPrecious ; exit 1; \"; echo \"[> STATUS: A^O_MyPrecious Installed. <]\"; echo \"\"; echo \"= Use alias [ A^O_MyPrecious_Start ] command to start listening for commands.\"; echo \" \"; "
      
      alias A^O_MyPrecious_Start="echo \"YEA__ I WILL START LISTEN \""
      
