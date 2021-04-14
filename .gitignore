@@ -116,5 +116,5 @@ dist
 ./SERVER/_running.conf
 
 # LOCK FROM NPM
-./RUNNER/package-lock.json
-./SERVER/package-lock.json
+SERVER/package-lock.json
+RUNNER/package-lock.json
