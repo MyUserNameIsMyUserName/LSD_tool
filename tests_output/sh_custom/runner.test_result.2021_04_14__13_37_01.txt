@@ -1,0 +1,4 @@
+
+> RUNNER@1.0.0 _start_app C:\Users\Slavko_Work\A^O_MyPrecious\RUNNER
+>  start bash -c " bash ./_start.sh " ; echo "RUNNER STARTED RUNNING" ; exit 1 ;
+

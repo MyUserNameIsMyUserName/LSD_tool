@@ -1,15 +1,19 @@
 #!/bin/bash
+# CONFIG ITEMS
+RUNNINGFILE=_running.conf
+
 # Ask the user for login details
 read -p 'Branch to use : ' branchvar
 read -sp 'Password/Keyphrase : ' keyphrasevar
-echo
-echo Thankyou $branchvar :: $keyphrasevar we now have your login details
+echo ''
+echo "Thank you, user: $branchvar :pass: $keyphrasevar ;"
 
-FILE=running.conf
-if test -f "$FILE"; then
-    echo "Previous config $FILE exists. Removing before creation of current."
-    rm -f $FILE
+if test -f "$RUNNINGFILE"; then
+    echo "Previous config $RUNNINGFILE exists. Removing before creation of current."
+    echo $(rm -f $RUNNINGFILE)
 fi
 
-echo $branchvar >>running.conf
-echo $keyphrasevar >>running.conf
+echo "BRANCHNAME="$branchvar >>"$RUNNINGFILE"
+echo "KEYPHRASE="$keyphrasevar >>"$RUNNINGFILE"
+
+cat $RUNNINGFILE

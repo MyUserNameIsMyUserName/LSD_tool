@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "_start_app_test": " echo \"MikiUser\" && echo \"MikiPASS\"|bash '_start.sh' && exit 1",
     "_install_req": "npm install && npm install -g forever nodemon open-cli node-notifier-cli",
     "_start_app": " start bash -c \" bash ./_start.sh \" ; echo \"RUNNER STARTED RUNNING\" ; exit 1 ;"
   },
